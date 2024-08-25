@@ -2,7 +2,7 @@ id: jenkins-openuser-register
 
 info:
   name: Jenkins Open User registration
-  author: DhiyaneshDk
+  author: DhiyaneshDk, ShankarAcharya
   severity: medium
   description: The Jenkins allows registering a new user and accessing the dashboard.
   remediation: Its recommended to turn off user registration.
@@ -24,7 +24,7 @@ http:
       - type: word
         part: body
         words:
-          - "Create an account! [Jenkins]"
+          - "Register [Jenkins]"
 
       - type: word
         part: header
